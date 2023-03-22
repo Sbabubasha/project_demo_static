@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/img.css' %}">
+    
+
+</head>
+<body>
+    <center>
+        <h1>this is the html page of the specific static folder</h1>
+        <img src="{% static 'images/img1.png'   %}" alt="" id="a">
+        <img src="{% static 'images/img2.png'  %}" alt="" id="b">
+        <img src="{% static 'images/img3.png'  %}" alt="" id="c">
+    </center>
+</body>
+</html>

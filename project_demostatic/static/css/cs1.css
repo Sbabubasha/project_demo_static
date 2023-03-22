@@ -1,0 +1,12 @@
+h1{
+    background-color:ghostwhite;
+}img{
+    height: 450px;
+    width: 450px;
+    padding:50px;
+   border-radius: 500px;
+}
+body{
+    background: linear-gradient(45deg,red ,blue, green);
+}
+ 

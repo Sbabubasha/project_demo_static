@@ -1,0 +1,26 @@
+h1{
+    color:ghostwhite;
+    background: linear-gradient(75deg,blue,red,yellow);
+
+}body{
+    background: linear-gradient(45deg,yellow,red,blue);
+    background-repeat: no-repeat;
+    height: 700px;
+}#a{
+    padding:30px;
+    height: 400px;
+    border-radius: 75px;
+    width: 350px;
+    
+}#b{
+    padding:30px;
+    height: 400px;
+    width: 350px;
+    border-radius: 75px;
+}#c{
+    padding: 30px;
+    display: inline-flex;
+    height: 400px;
+    width: 350px;
+    border-radius: 75px;
+}

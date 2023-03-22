@@ -1,0 +1,26 @@
+#a{
+    width:300px;
+    height: 300px;
+    border-radius: 30px;
+    display: inline;
+    padding: 10px;
+}#b{
+    width:300px;
+    height: 300px;
+    border-radius: 30px;
+    display: inline;
+    padding: 10px;
+}#c{
+    width:300px;
+    height: 300px;
+    border-radius: 30px;
+    display: inline;
+    padding: 10px;
+}
+#h{
+    background: linear-gradient(45deg,red, yellow,blue);
+    padding: 20px;
+    height: 30px;
+    font-style: italic;
+    
+}

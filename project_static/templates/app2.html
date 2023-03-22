@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/app2.css' %}">
+</head>
+<body>
+    <center>
+        <h1>This Is Second Pages</h1>
+        <a href="{% url 'app1' %}" id="z">Home1</a>
+        <a href="" id="x" style="background-color: black
+        ; color:aqua;padding:20px;bottom:350px;"> About</a>
+        <a href="" id="y">Contact</a>
+        <a href="" id="w">Team</a>
+        <img src="{% static 'images/raina1.jpg' %}" alt="" id="a">
+        <img src="{% static 'images/rain2.jpg' %}" alt="" id="b">
+        <img src="{% static 'images/raina3.jpg'  %}" alt=""id="c">
+    </center>
+</body>
+</html>
